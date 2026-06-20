@@ -1,30 +1,51 @@
-# CollegeMate Chatbot 🤖
+# CollegeMate 🎓🤖
 
 ## Overview
-A semantic NLP chatbot that matches user queries with relevant answers using sentence embeddings and cosine similarity.
+
+CollegeMate is a semantic NLP chatbot designed to answer common college-related queries. It uses sentence embeddings and cosine similarity to retrieve the most relevant answer from a predefined FAQ dataset.
 
 ## Features
-- Semantic search
-- Query-answer matching
-- Streamlit interface
-- Exploratory Data Analysis (EDA)
+
+* Semantic question matching
+* NLP-based response retrieval
+* Interactive Streamlit interface
+* Data analysis and visualization
+* FAQ dataset integration
 
 ## Technologies Used
-- Python
-- Streamlit
-- NumPy
-- Pandas
+
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* NLP techniques
+* Cosine Similarity
+
+## Dataset
+
+The chatbot uses a college FAQ dataset containing common student queries and their corresponding answers.
 
 ## Project Workflow
-1. User enters a query
-2. Query is converted to embeddings
-3. Cosine similarity is calculated
-4. Most relevant answer is returned
+
+1. User enters a question.
+2. The question is converted into embeddings.
+3. Cosine similarity is calculated against stored questions.
+4. The most relevant answer is returned.
+5. Data insights are visualized through charts.
+
+## Demo
+
+![CollegeMate Demo](CollegeMate.png)
 
 ## Future Improvements
-- Better NLP models
-- Larger dataset
-- Context-aware responses
+
+* Larger FAQ database
+* Advanced transformer-based models
+* Context-aware conversations
+* Multi-language support
 
 ## Author
+
 Anu Priya
+B.Tech CSE Student
+
